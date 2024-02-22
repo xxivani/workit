@@ -1,0 +1,329 @@
+@font-face {
+  font-family: Manrope;
+  src: url("assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Manrope;
+  src: url("assets/fonts/manrope/static/Manrope-Regular.ttf");
+}
+@font-face {
+  font-family: Fraunces 144pt;
+  src: url("assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.content {
+  min-height: 100%;
+  position: relative;
+  background-color: #fcf8ff;
+  /* Match the background color of the SVG */
+}
+
+.bg svg {
+  position: absolute;
+  z-index: 0;
+}
+
+.heading {
+  position: absolute;
+  margin-top: 146px;
+  margin-left: 403px;
+
+  width: 635px;
+  height: 160px;
+  display: flex;
+}
+
+.rectangle-1 {
+  width: 243px;
+  height: 3px;
+  flex-shrink: 0;
+  background: var(--Eucaplyptus, #44ffa1);
+  margin-top: 155px;
+  margin-left: 238px;
+}
+
+.bg p {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Heading L */
+  font-family: "Fraunces 144pt";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  /* 100% */
+}
+
+.button-1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 75px;
+  margin-left: 1135px;
+  color: var(--White, #fff);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 177.778% */
+  letter-spacing: -0.18px;
+}
+
+.rectangle-2 {
+  position: absolute;
+  z-index: 1;
+  width: 140px;
+  height: 3px;
+  background: var(--Eucaplyptus, #44ffa1);
+  margin-top: 106px;
+  margin-left: 1135px;
+}
+
+.workit-img {
+  position: absolute;
+  z-index: 1;
+  width: 95.762px;
+  height: 24.608px;
+  flex-shrink: 0;
+  fill: var(--White, #fff);
+  margin-top: 75px;
+  margin-left: 166px;
+}
+
+.rectangle-3 {
+  width: 161px;
+  height: 61px;
+  flex-shrink: 0;
+  background: var(--Eucaplyptus, #44ffa1);
+  position: absolute;
+  z-index: 1;
+  margin-top: 420px;
+  margin-left: 640px;
+}
+
+.button-2 {
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 177.778% */
+  letter-spacing: -0.18px;
+  padding: 13px;
+}
+
+.bg-pattern-1 {
+  position: absolute;
+  z-index: 1;
+  margin-right: 500px;
+  margin-top: 200px;
+  margin-left: -130px;
+}
+
+.bg-pattern-2 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 1315px;
+  margin-top: 300px;
+}
+
+.phone {
+  width: 715px;
+  height: 427px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 3;
+  margin-top: 504px;
+  margin-left: 441px;
+}
+
+/* SECOND PANEL */
+
+.second-panel .pink-layer {
+  position: absolute;
+  fill: var(--Ghost-White, #fcf8ff);
+  margin-top: 740px;
+  z-index: 0;
+}
+
+.group-3 {
+  display: flex;
+  flex-direction: row;
+  width: 1114px;
+  height: 400px;
+  flex-shrink: 0;
+  margin-top: 1100px;
+  margin-left: 105px;
+  position: absolute;
+  z-index: 3;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Body */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.num-circle {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 30.5px;
+  border: 1px solid var(--Davys-Grey, #584d62);
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-family: "Fraunces 144pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 166.667% */
+  align-items: center;
+  min-width: 21px; /* i have no idea about this, needs checking */
+}
+
+.title {
+  width: 354px;
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-family: "Fraunces 144pt";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  /* 125% */
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.second-panel p {
+  width: 354px;
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Body */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+}
+
+/* THIRD PANEL */
+
+.third-panel {
+  width: 100%;
+  height: 100%;
+  background: var(--White, #fff);
+  position: absolute;
+  z-index: 0;
+  margin-top: 1850px;
+  margin-left: 200px;
+}
+.founder {
+  width: 450.287px;
+  height: 453px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.test-rectangle {
+  position: absolute;
+  z-index: 1;
+  width: 730px;
+  height: 413px;
+  flex-shrink: 0;
+  background: var(--Dark-Purple, #24053e);
+  margin-left: 382px;
+  margin-top: 173px;
+}
+
+.test-rectangle label {
+  position: absolute;
+  z-index: 3;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Heading M */
+  font-family: "Fraunces 144pt";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 114.286% */
+
+  margin-top: 64px;
+  margin-left: 64px;
+}
+
+.test-rectangle p {
+  position: absolute;
+  z-index: 3;
+  width: 602px;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Body */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+
+  margin-top: 160px;
+  margin-left: 64px;
+}
+
+.bg-pattern-3 {
+  margin-top: 264px;
+  margin-left: 437px;
+  position: absolute;
+  z-index: 3;
+}
+
+.button-last {
+  width: 190px;
+  height: 61px;
+  flex-shrink: 0;
+  background: var(--Eucaplyptus, #44ffa1);
+  margin-top: 288px;
+  margin-left: 64px;
+
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
