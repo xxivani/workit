@@ -19,7 +19,6 @@ html {
   width: 100%;
 }
 
-
 .content {
   min-height: 100%;
   position: relative;
@@ -324,7 +323,7 @@ html {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; /* 177.778% */
+  line-height: 60px; /* 177.778% */
   letter-spacing: -0.18px;
 }
 
@@ -347,3 +346,43 @@ html {
   margin-bottom: 110px;
 }
 /* Default styles */
+
+.button-last:hover {
+  border: 2px solid var(--Eucaplyptus, #44ffa1);
+
+  flex-shrink: 0;
+  color: var(--Eucaplyptus, #44ffa1);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px; /* 177.778% */
+  letter-spacing: -0.18px;
+  background-color: #24053e;
+}
+
+.button-2:hover {
+  border: 2px solid var(--Eucaplyptus, #44ffa1);
+
+  flex-shrink: 0;
+  background-color: #24053e;
+  color: var(--Eucaplyptus, #44ffa1);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
+
+.button-1:hover {
+  color: var(--Eucaplyptus, #44ffa1);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
